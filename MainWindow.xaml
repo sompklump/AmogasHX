@@ -1,0 +1,17 @@
+﻿<Window x:Class="AmongUsHack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AmongUsHack"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Attach" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label x:Name="isImposter_lbl" Content="Imposter" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="speed_lbl" Content="Speed: 1,25" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="200"/>
+        <CheckBox x:Name="noKillCooldown_checkbox" Content="No Kill Cooldown" HorizontalAlignment="Left" Margin="14,112,0,0" VerticalAlignment="Top" Checked="noKillCooldown_checkbox_Checked" Unchecked="noKillCooldown_checkbox_Unchecked"/>
+        <CheckBox x:Name="maxVision_checkbox" Content="Max Vision" HorizontalAlignment="Left" Margin="14,132,0,0" VerticalAlignment="Top" Checked="maxVision_checkbox_Checked" Unchecked="maxVision_checkbox_Unchecked"/>
+
+    </Grid>
+</Window>
